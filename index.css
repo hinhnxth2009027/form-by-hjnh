@@ -39,11 +39,19 @@
         margin-bottom: 40px;
     }
 
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+    }
     p {
         text-align: center;
         color: #ffffff;
         font-size: 14px;
-        margin-top: 273px;
+        margin-top: 230px;
         font-style: italic;
     }
 
@@ -113,8 +121,6 @@
 }
 
 
-
-
 @media only screen and (max-width: 504px) {
     * {
         margin: 0;
@@ -122,9 +128,8 @@
     }
 
 
-
     form div.form-body {
-        width:100%;
+        width: 100%;
         height: 100%;
         background-image: linear-gradient(to bottom right, #353dff, #d647ff);
         margin: auto;
@@ -139,12 +144,20 @@
         font-weight: bold;
         margin-bottom: 20px;
     }
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+    }
 
     p {
         text-align: center;
         color: #ffffff;
         font-size: 14px;
-        margin-top: 80px;
+        margin-top: 170px;
         font-style: italic;
         margin-bottom: 100%;
     }
@@ -165,7 +178,7 @@
     }
 
     .can-le {
-        padding-left: 1px;
+        padding-left: 10px;
         display: inline-block;
         color: #ffffff;
         padding-right: 50px;
@@ -215,18 +228,15 @@
 }
 
 
-
-
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
     * {
         margin: 0;
         padding: 0;
     }
 
 
-
     form div.form-body {
-        width:100%;
+        width: 100%;
         height: 100%;
         background-image: linear-gradient(to bottom right, #353dff, #d647ff);
         margin: auto;
@@ -241,12 +251,19 @@
         font-weight: bold;
         margin-bottom: 20px;
     }
-
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+    }
     p {
         text-align: center;
         color: #ffffff;
         font-size: 14px;
-        margin-top: 20px;
+        margin-top: 40px;
         font-style: italic;
         margin-bottom: 100%;
     }
@@ -316,3 +333,4 @@
         background-image: linear-gradient(to bottom right, #fd74fa, #0037ff);
     }
 }
+
